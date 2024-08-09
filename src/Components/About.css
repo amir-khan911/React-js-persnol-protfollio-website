@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+     min-height: 100vh;
+     width: 100%;
+     padding: 78px 0px;
+     /* display: flex;
+     align-items: center;
+     justify-content: space-between; */
+     /* background-color:#191919; */
+}
+.about img{
+      border: 2px solid blueviolet;
+      box-shadow: 0 0 5px blueviolet, 0 0 25px blueviolet;
+      height: 520px;
+      /* width: 50%; */
+      border-radius: 5em;
+      transition: 0.5s ease;
+
+}
+.head1{
+    text-transform: 25px;
+    margin-bottom: 0.4em;
+
+}
+.about button{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-decoration: none;border: 2px solid blueviolet;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4em;
+     gap: 10px;
+     margin: 10px;
+}
+.main{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.about-text{
+    margin-left: 70px;
+}
+.about-text p{
+    font-size: 18px;
+    /* font-weight: bold; */
+   font-family: sans-serif;
+    /* letter-spacing: 3px; */
+    letter-spacing: 2px;
+    max-width: 770px;
+    max-height: px;
+}
+.about-text h3:hover{
+    border-bottom: 3px solid blue;
+    border-width: 45%;
+    width: 50%;
+}
+.about button:hover{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: 2px solid blueviolet;
+  box-shadow: 0 0 5px blueviolet, 0 0 25px blueviolet;
+}
+.span1{
+   
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 3px solid aqua;
+}
